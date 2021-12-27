@@ -1,0 +1,9 @@
+#racev {
+  margin: -10px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 36pt;
+  letter-spacing: 6px;
+  -webkit-text-stroke: 3px rgb(14, 111, 207);
+  text-shadow: 6px 0 6px #00366b, 5px 5px 5px #002951, 0 6px 6px #00366b;
+}

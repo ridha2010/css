@@ -1,0 +1,35 @@
+.cdomes {
+  background-color: black;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#txtdom1 {
+  font-family: monospace;
+  font-size: 16pt;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(
+    90deg,
+    #dc143c,
+    rgb(230, 213, 62),
+    rgb(63, 18, 136)
+  );
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: txtcdomes infinite 4s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes txtcdomes {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}

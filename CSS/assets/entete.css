@@ -1,0 +1,35 @@
+#entete {
+  /* background: linear-gradient(45deg, black 50%, green 50%); */
+  background: linear-gradient(45deg, green 40%, black 20%);
+  height: 180px;
+  width: 650px;
+  text-align: center;
+  box-shadow: 4px 5px 5px rgb(46, 41, 41);
+  margin-left: -110px;
+  border-radius: 10px;
+}
+#ent0 {
+  color: green;
+  font-size: 20pt;
+  font-family: monospace;
+  width: 300px;
+  mix-blend-mode: difference;
+  animation: move linear infinite 10s;
+}
+@keyframes move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  15% {
+    transform: translate(100px, 150px);
+  }
+  40% {
+    transform: translate(350px, 0px);
+  }
+  75% {
+    transform: translate(0px, 140px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}

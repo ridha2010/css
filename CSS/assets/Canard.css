@@ -1,0 +1,38 @@
+#ani1 {
+  animation-duration: 15s;
+  animation-name: mouv01;
+  animation-iteration-count: infinite;
+}
+@keyframes mouv01 {
+  from {
+    margin-left: -20%;
+  }
+
+  to {
+    margin-left: 100%;
+  }
+}
+#dpp1 {
+  height: 20px;
+}
+/* ----- texte défilant ------ */
+#pp1 {
+  font-family: fantasy;
+  background: linear-gradient(to right, red 10%, black 0%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-duration: 15s;
+  animation-name: mouv02;
+  animation-iteration-count: infinite;
+}
+@keyframes mouv02 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: -45%;
+    width: 100%;
+  }
+}
